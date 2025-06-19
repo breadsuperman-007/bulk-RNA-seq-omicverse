@@ -11,10 +11,10 @@ This repository conducts a bulk RNA-seq analysis of pulmonary fibrosis patient s
 
 📌 项目流程 | Project Flow
 
-差异表达分析主要流程（见 scripts/deg_analysis.py）
-读取计数矩阵（raw count）
-转换 Entrez ID 为基因名
-构建 pyDEG 对象并执行 DESeq2 分析
-设置 FC 和 p-value 阈值绘制火山图
-可视化特定基因表达（boxplot）
-富集分析（基于显著差异基因）
+1.差异表达分析主要流程（见 scripts/deg_analysis.py）
+2.读取计数矩阵（raw count）
+3.转换 Entrez ID 为基因名
+4.构建 pyDEG 对象并执行 DESeq2 分析
+5.设置 FC 和 p-value 阈值绘制火山图
+6.可视化特定基因表达（boxplot）
+7.富集分析（基于显著差异基因）
